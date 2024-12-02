@@ -14,7 +14,6 @@ function App() {
               <strong>Email:</strong> {puppyInformation.email}
             </p>
             <p>
-              {" "}
               <strong>Age:</strong> {puppyInformation.age}
             </p>
             {puppyInformation.tricks.length > 0 && (
